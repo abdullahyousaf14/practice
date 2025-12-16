@@ -11,7 +11,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Bank b = new HBL(); 
-            Console.WriteLine("HBL Rate of Interest is: " + b.getInterestRate() + "%");
+            Console.WriteLine(" ZAIBY & COZZY HBL Rate of Interest is: " + b.getInterestRate() + "%");
         }
     }
     abstract class Bank
